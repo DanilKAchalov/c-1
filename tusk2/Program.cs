@@ -13,9 +13,18 @@ double sum3 = d1 + Sum;
 Console.WriteLine(sum3);
 
 
-int prd1 = a1 * a2;
+ int prd1 = a1 * a2;
 long prd2 = l1 * a1;
 double prd3 = a1 * d1;
 Console.WriteLine(prd1);
 Console.WriteLine(prd2);
-Console.WriteLine(prd3);
+Console.WriteLine(prd3); 
+
+
+
+float quotient = a1 / a2;
+Console.WriteLine(quotient);
+
+double d2 = 6;
+double q2 = a1 / d2; 
+Console.WriteLine(q2);
